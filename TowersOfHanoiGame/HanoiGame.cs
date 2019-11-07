@@ -80,6 +80,7 @@ namespace TowersOfHanoiGame
             }
             catch (Exception ex)
             {
+                Console.WriteLine("發生無法預期之錯誤");
                 Console.WriteLine(ex.ToString());
                 Console.ReadKey();
                 System.Environment.Exit(0);
@@ -138,6 +139,7 @@ namespace TowersOfHanoiGame
             }
             catch (Exception ex)
             {
+                Console.WriteLine("發生無法預期之錯誤");
                 Console.WriteLine(ex.ToString());
                 Console.ReadKey();
                 System.Environment.Exit(0);
